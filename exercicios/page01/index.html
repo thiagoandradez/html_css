@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv='refresh' content='10'>
+    <title>Pagina central</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página central</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicom/favicon.ico" type="image/x-icon">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+    </style>
+</head>
+<body>
+  <header><img class="CABECA" src="imagens/logo-removebg-preview.png" alt="logo">
+          <strong><h1>Central de links - TMDL</h1></strong>
+  </header>
+
+  <nav><img src="favicom/truck.ico" alt=""><a href="https://www.newrastreamentoonline.com.br/new/login" target="_blank">RASTREAMENTO NEW</a>
+       <img src="favicom/truck.ico" alt=""><a href="https://sasweb.sascar.com.br/unificadoweb/site/login" target="_blank">RASTREAMENTO SASCAR</a>
+       <img src="favicom/truck.ico" alt=""><a href="https://www.omnilink.com.br/" target="_blank">RASTREAMENTO OMNILINK</a>
+       <br>
+       <img src="favicom/gmail.ico" alt=""><a href="https://mail.google.com/mail/u/0/#inbox" target="_blank" >E-MAIL</a>
+       <img src="favicom/wp.ico" alt=""><a href="https://web.whatsapp.com/" target="_blank">WHATSAPP</a>
+       <br>
+       <img src="favicom/hensel.ico" alt=""><a href="http://cloudhensel.ddns.com.br:800/sGWEB_TMDL/" target="_blank">HENSEL</a>
+       <img src="favicom/hensel.ico" alt=""><a href="http://cloudhensel.ddns.com.br:800/sageweb_tmdl/Default.aspx" target="_blank">SAGEWEB</a>
+      
+      </nav>
+  <main>
+    <img src="imagens/caminhao-removebg-preview.png" alt="">
+    <p>A data e hora atual é <time datetime="" id="current-time"></time></p><><p class="count"></p>
+    <script>
+      var now = new Date();
+      var dateTimeString = now.toISOString();
+      var formattedDateTimeString = now.toLocaleString();
+      var timeElement = document.getElementById("current-time");
+      timeElement.textContent = formattedDateTimeString;
+      timeElement.setAttribute("datetime", dateTimeString);
+    </script>
+
+</main>
+</body>
+<footer>
+  <p id="final">DESENVOLVIDO POR THIAGO DE SANTANA</p>
+  <br>
+  <div id="divBusca">
+    
+    <input type="text" id="txtBusca" placeholder="Procurar..."/>
+    <img src="imagens/lupa.png" id="btnBusca" alt="Procurar..."/>
+  </div>
+  <br>
+  <img src="imagens/logistics-removebg-preview.png" alt="">
+</footer>
+</html>
