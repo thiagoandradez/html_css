@@ -6,19 +6,28 @@
     padding: 0px;
 }
 
+body {
+    background-image: url('imagens/fundo.png');
+    background-size: 400px 250px;
+   
+}
 
 header {
+    
     background-image: linear-gradient(to bottom, rgba(26, 255, 0, 0.707), rgba(255, 0, 0, 0.887));
     margin: auto;
+    
 
 }
 
 header img {
+    
     padding-bottom: 15px;
     padding-top: 15px;
     display: block;
     text-align: center;
     margin: auto;
+    
 }
 
 header h1 {
@@ -28,7 +37,7 @@ header h1 {
     font-size: 3.5em;
     text-align: center;
     margin: auto;
-
+    
 }
 
 nav {
@@ -56,6 +65,7 @@ main {
     text-align: center;
     margin: auto;
     
+   
 }
 
 
@@ -69,6 +79,7 @@ main p {
 
 
 footer{
+    
     padding-top: 20px;
     background-image: linear-gradient(to top, rgba(26, 255, 0, 0.707), rgba(0, 0, 0, 0.707));
     margin: auto;
