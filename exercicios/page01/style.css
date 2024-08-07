@@ -7,9 +7,13 @@
 }
 
 body {
+    height : 100vh;
     background-image: url('imagens/fundo.png');
-    background-size: 400px 250px;
-   
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment : fixed;
+
 }
 
 header {
