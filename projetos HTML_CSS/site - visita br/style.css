@@ -128,3 +128,10 @@ article h1 {
     text-align: center;
     font-family: var(--fonte02);
 }
+
+footer{
+    text-align: center;
+    color: white;
+    font-family: var(--fonte01);
+    background-color: black;
+}
