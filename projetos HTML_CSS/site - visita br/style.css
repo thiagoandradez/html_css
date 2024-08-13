@@ -98,7 +98,17 @@ h3 a {
 
 
 article {
+    background-image: url(imagens/fundoparalax.png);
+    font-family: var(--fonte01);
+    font-size: 2.5em;
     background-color: rgb(255, 255, 255);
+    text-align: center;
+
+}
+
+article p {
+    font-family: var(--fonte02);
+    color: brown;
 }
 
 main {
