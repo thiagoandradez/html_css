@@ -24,20 +24,20 @@
 
 
 html, body {
-    margin: auto;
-    min-height: 375px;
-    min-width: 667px;
+    margin: center;
     background-color: rgba(255, 0, 0, 0.942);
+   
 }
 
 header {
-    
+    max-height: 778px;
+    max-width: 850px;
     background-image: url(imagens/render/perfil\ render.png);
     background-repeat: no-repeat;
     background-position: right,center;
     background-color: rgba(255, 0, 0, 0.942);
     padding-bottom: 72px;
-   
+    margin: center;
 }
 
 header h1 {
@@ -72,6 +72,7 @@ h3 {
     padding-bottom: 20px;
     padding-left: 70px;
     padding-right: 30px;
+    margin: center;
 
 }
 
@@ -94,6 +95,7 @@ h3 a {
     padding-left: 35px;
     padding-bottom: 35px;
     margin: auto;
+    margin: center;
 }
 
 
@@ -104,6 +106,7 @@ article {
     background-color: rgb(0, 0, 0);
     text-align: center;
     color: aliceblue;
+    margin: center;
 
 }
 
@@ -111,9 +114,11 @@ article p {
     font-family: var(--fonte02);
     color: rgb(255, 0, 0);
     font-size: 0.5em;
+    margin: center;
 }
 
 main {
     background-color: rgb(0, 0, 0);
+    margin: center;
 }
 
