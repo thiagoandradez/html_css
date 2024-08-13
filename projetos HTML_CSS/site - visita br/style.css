@@ -103,8 +103,8 @@ h3 a {
 
 article {
     background-image: url(imagens/fundoparalax.png);
-    font-family: var(--fonte01);
-    font-size: 2em;
+    font-family: var(--fonte03);
+    font-size: 1.6em;
     background-color: rgb(0, 0, 0);
     text-align: center;
     color: aliceblue;
