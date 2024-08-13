@@ -101,7 +101,7 @@ h3 a {
 }
 
 
-article {
+.indica {
     background-image: url(imagens/fundoparalax.png);
     font-family: var(--fonte03);
     font-size: 1.6em;
@@ -112,7 +112,7 @@ article {
 
 }
 
-article p {
+.indica p {
     font-family: var(--fonte02);
     color: rgb(255, 0, 0);
     font-size: 0.5em;
