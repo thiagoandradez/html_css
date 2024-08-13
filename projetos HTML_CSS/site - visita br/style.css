@@ -33,7 +33,7 @@ html, body {
 
 header {
     background-image: url(imagens/render/perfil\ render.png);
-    width: 100vw;
+    max-width: 860px;
     background-repeat: no-repeat;
     background-position: right,center;
     background-color: rgba(255, 0, 0, 0.942);
