@@ -9,6 +9,7 @@
     margin: 0px;
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
+    
 }
 
 
@@ -22,12 +23,21 @@
 }
 
 
+html, body {
+    margin: auto;
+    min-height: 900px;
+    min-width: 830px;
+    background-color: rgba(255, 0, 0, 0.942);
+}
+
 header {
+    
     background-image: url(imagens/render/perfil\ render.png);
     background-repeat: no-repeat;
     background-position: right,center;
     background-color: rgba(255, 0, 0, 0.942);
-    padding-bottom: 132px;
+    padding-bottom: 72px;
+   
 }
 
 header h1 {
@@ -84,5 +94,14 @@ h3 a {
     padding-left: 35px;
     padding-bottom: 35px;
     margin: auto;
+}
+
+
+article {
+    background-color: rgb(255, 255, 255);
+}
+
+main {
+    background-color: rgb(0, 0, 0);
 }
 
