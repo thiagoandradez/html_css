@@ -124,7 +124,7 @@ h3 a {
 }
 
 main {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(170, 21, 21);
     margin: center;
 }
 
@@ -132,6 +132,7 @@ article h1 {
     background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
     padding-top: 5px;
+    padding-bottom: 5px;
     text-align: center;
     font-family: var(--fonte02);
 }
@@ -143,12 +144,24 @@ article img {
 }
 
 article p {
-    background-color: aliceblue;
-    color: brown;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: rgb(255, 255, 255);
     text-align: center;
     font-family: var(--fonte01);
     font-size: 1.5em;
 }
+
+article h2 {
+    font-family: var(--fonte01);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: center;
+    text-align: center;
+    background-color: white;
+    color: black;    
+}
+
 footer{
     text-align: center;
     color: white;
@@ -165,7 +178,7 @@ footer a {
 }
 
 a:hover {
-    color: red;
+    color: rgb(255, 255, 255);
    
 
 }
