@@ -103,11 +103,14 @@ h3 a {
 
 .indica {
     background-image: url(imagens/fundoparalax.png);
+    background-size: cover;
+    background-position: center,center;
     font-family: var(--fonte03);
     font-size: 1.6em;
     background-color: rgb(0, 0, 0);
     text-align: center;
     color: aliceblue;
+   
     margin: center;
 
 }
@@ -134,4 +137,18 @@ footer{
     color: white;
     font-family: var(--fonte01);
     background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+footer a {
+    font-family: var(--fonte010);
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: red;
+   
+
 }
