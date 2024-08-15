@@ -37,7 +37,7 @@ header {
     margin: auto;
     background-repeat: no-repeat;
     background-position: right,center;
-    background-color: rgba(255, 0, 0, 0.942);
+    background-color: #B71B1C;
     padding-bottom: 18px;
     
 }
@@ -128,7 +128,8 @@ h3 a {
 }
 
 main {
-    background-color: rgb(170, 21, 21);
+    background-image: linear-gradient(to right, #B71B1C , rgba(255, 255, 255, 0.424) );
+    
     margin: center;
 }
 
@@ -148,6 +149,7 @@ article img {
 }
 
 article p {
+    background-color: black;
     padding-top: 5px;
     padding-bottom: 15px;
     color: rgb(255, 255, 255);
@@ -156,14 +158,15 @@ article p {
     font-size: 1.5em;
 }
 
-article h2 {
-    font-family: var(--fonte01);
+article > h2 {
+    font-family: var(--fonte02);
+    font-size: 2em;
     padding-top: 5px;
     padding-bottom: 5px;
     margin: center;
     text-align: center;
-    background-color: white;
-    color: black;    
+    background-image: linear-gradient(to right, #ffffff , rgba(255, 255, 255, 0.441));
+    color: rgb(0, 0, 0);    
 }
 
 footer{
@@ -186,3 +189,23 @@ a:hover {
    
 
 }
+
+.rede {
+    font-family: var(--fonte01);
+    font-size: 1em;
+    background-color: rgb(0, 0, 0);
+
+}
+
+.rede:hover {
+    background-color: #B71B1C;
+}
+.rede a{
+    color: white;
+    text-decoration: none;
+}
+.rede a:hover {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
