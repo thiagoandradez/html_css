@@ -9,7 +9,7 @@
     margin: 0px;
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
-    
+    margin: center;
 }
 
 
@@ -32,16 +32,18 @@ html, body {
 }
 
 header {
-    background-image: url(imagens/render/perfil\ render.png);
     max-width: 100%;
     margin: auto;
     background-repeat: no-repeat;
     background-position: right,center;
     background-color: #B71B1C;
-    padding-bottom: 18px;
+    padding-bottom: 1px;
     
 }
 
+header img{
+    margin:-5px
+}
 
 header h1 {
     font-family: var(--fonte02);
@@ -208,4 +210,6 @@ a:hover {
     color: rgb(0, 0, 0);
     text-decoration: none;
 }
+
+
 
