@@ -45,6 +45,14 @@
         <p><label for="idia">Dia da prova :</label> <input type="date" name="dia" id="idia" value="2024-08-29"></p>
         <input type="submit" value="Enviar">
         <input type="reset" value="Limpar">
+    </form>
+    <h2>Formulário simples de e-mail</h2>
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <p><label for="iemail">Email: </label><input type="email" name="email" id="iemail" autocomplete="Email" required></p>
+        <p><label for="itelefone">Telefone :</label> <input type="tel" name="telefone" id="itelefone" autocomplete="telefone" pattern="^[0-9]{4} - [0-9]{4}$" required placeholder="(xx) xxxx - xxxx"></p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+
 
 
 
