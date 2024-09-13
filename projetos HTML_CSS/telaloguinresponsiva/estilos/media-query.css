@@ -42,7 +42,7 @@
         height: 100%;
     }
 
-    #loogin > #formulario {
+    #login > #formulario {
         float: left;
         width: 50%;
     }
@@ -55,4 +55,6 @@
     #formulario > p {
         font-size: 1.2em;
     }
+
+    
 }
