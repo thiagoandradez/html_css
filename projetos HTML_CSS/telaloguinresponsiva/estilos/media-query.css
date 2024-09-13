@@ -9,6 +9,7 @@
 
     #login {
         width: 80vw;
+        height: 280px;
 
     }
 
@@ -34,6 +35,7 @@
 
     #login {
         width: 950px;
+        height: 350px;
     }
 
     #login > #imagem {
