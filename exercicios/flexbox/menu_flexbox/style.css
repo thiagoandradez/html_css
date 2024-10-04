@@ -33,14 +33,14 @@ main {
 }
 
 header > h1 {
-    border: 1px dotted black;
+    text-shadow: 2px 2px 0px black;
     flex: 0 0 200px;
    
 
 }
 
 header nav {
-    border: 1px dotted black;
+   
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-end;
