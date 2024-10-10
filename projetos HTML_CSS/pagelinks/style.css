@@ -10,6 +10,11 @@ html, body {
     background-position:  center center;
 }
 
+header {
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
 header h1 {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -26,18 +31,36 @@ header h2 {
 }
 
 .caixaface {
-   background-color: rgba(0, 0, 255, 0.196);
+   background-color: rgb(0, 0, 255);
    text-align: left;
    width: 254px;
    height: 100px;
    font-size: 2em;
    padding-left: 120px;
-   
+   padding-right: 20px;
+   border-radius: 5%;
+   margin-left: 195px;
 
 }
 
-.caixaface a {
+.caixaface p {
+    padding-top: 30px;
+}
+
+
+
+.caixaface:hover{
+    background-color: rgb(10, 130, 222);
+    transition: 0.5s;
+}
+
+a {
     color: rgb(255, 255, 255);
     text-decoration: none;
     
+    
+}
+
+div {
+    display: inline-block;
 }
