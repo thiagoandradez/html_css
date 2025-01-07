@@ -59,7 +59,7 @@
    }
 
    .projects ul li .image img {
-    min=width: auto;
+    min-width: auto;
    }
 
 
