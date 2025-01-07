@@ -49,3 +49,31 @@ header .header__right .header__image .background{
     z-index: -1;
 
 }
+
+ .header__left a {
+   
+    background-color: rgba(0, 119, 246, 0.348);
+    transition: 0.5s;
+}
+
+.header__left a:hover {
+    color: white;
+    background-color: rgba(0, 40, 83, 0.775);
+    transition: 0.5s;
+}
+
+@media only screen and (max-width: 768px) {
+
+    header {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    header .header__left p {
+        margin: 2rem auto 4rem;
+    }
+
+
+
+
+}
